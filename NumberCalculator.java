@@ -18,10 +18,10 @@ public class NumberCalculator {
 
 	        int largestNumber = Math.max(num1, Math.max(num2, num3));
 	        int sumOfLargest = largestNumber;
-	       // double average = (num1 + num2 + num3) / 3.0;
+	       double average = (num1 + num2 + num3) / 3.0;
 
 	        System.out.println("The sum the largest number is: " + sumOfLargest);
-	        //System.out.println("The average of the three numbers is: " + average);
+	        System.out.println("The average of the three numbers is: " + average);
 
 			scanner.close();
 	    }
